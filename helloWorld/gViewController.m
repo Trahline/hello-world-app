@@ -53,11 +53,15 @@
         
     
 }
+
+- (IBAction)return:(id)sender {
+}
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
     
     if (theTextField == self.textField) {
         
         [theTextField resignFirstResponder];
+        [self changeGreeting:nil];
         
     }
     
