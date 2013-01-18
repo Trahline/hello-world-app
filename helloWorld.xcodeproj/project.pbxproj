@@ -19,6 +19,7 @@
 		711A434B16A867C600B3DB47 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A434916A867C600B3DB47 /* MainStoryboard_iPhone.storyboard */; };
 		711A434E16A867C600B3DB47 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A434C16A867C600B3DB47 /* MainStoryboard_iPad.storyboard */; };
 		711A435116A867C600B3DB47 /* gViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A435016A867C600B3DB47 /* gViewController.m */; };
+		71BA340A16A8E7F900D2B317 /* readMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71BA340916A8E7F900D2B317 /* readMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		711A434D16A867C600B3DB47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		711A434F16A867C600B3DB47 /* gViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gViewController.h; sourceTree = "<group>"; };
 		711A435016A867C600B3DB47 /* gViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gViewController.m; sourceTree = "<group>"; };
+		71BA340916A8E7F900D2B317 /* readMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		711A432216A867C500B3DB47 = {
 			isa = PBXGroup;
 			children = (
+				71BA340916A8E7F900D2B317 /* readMe.txt */,
 				711A433716A867C600B3DB47 /* helloWorld */,
 				711A433016A867C600B3DB47 /* Frameworks */,
 				711A432E16A867C600B3DB47 /* Products */,
@@ -168,6 +171,7 @@
 				711A434816A867C600B3DB47 /* Default-568h@2x.png in Resources */,
 				711A434B16A867C600B3DB47 /* MainStoryboard_iPhone.storyboard in Resources */,
 				711A434E16A867C600B3DB47 /* MainStoryboard_iPad.storyboard in Resources */,
+				71BA340A16A8E7F900D2B317 /* readMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +313,7 @@
 				711A435616A867C600B3DB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
